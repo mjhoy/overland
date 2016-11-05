@@ -4,3 +4,6 @@ project overland
 
 xcode/
         Contains the xcode project for building the iOS app.
+
+game/
+        Contains a rust crate for running the game.

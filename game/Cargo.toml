@@ -1,0 +1,6 @@
+[package]
+name = "overland"
+version = "0.1.0"
+authors = ["Michael Hoy <mjh@mjhoy.com>", "Andrew Kelly <a.m.kelly@mind-gloaming.net>"]
+
+[dependencies]
