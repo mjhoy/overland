@@ -7,3 +7,6 @@ xcode/
 
 game/
         Contains a rust crate for running the game.
+
+sdl/
+        Git submodule of the SDL 2.x repository
