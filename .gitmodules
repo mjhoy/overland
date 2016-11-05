@@ -2,4 +2,4 @@
 	path = sdl
 	url = git@github.com:spurious/SDL-mirror.git
 	shallow = true
-        ignore = dirty
+	ignore = dirty
