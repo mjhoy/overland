@@ -1,6 +1,5 @@
 [submodule "sdl"]
 	path = sdl
-	url = git@github.com:spurious/SDL-mirror.git
+	url = git@github.com:mjhoy/SDL-mirror.git
 	shallow = true
 	ignore = dirty
-	branch = release-2.0.5
