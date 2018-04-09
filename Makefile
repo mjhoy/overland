@@ -1,4 +1,11 @@
+.PHONY: clean
+
 all: libSDL2-iOS.a game/mac-sdl/libSDL2.a
+
+clean:
+	rm -rf sdl/Xcode-iOS/SDL/build
+	rm -rf sdl/Xode/
+	rm libSDL2-iOS.a game/mac-sdl/libSDL2.a
 
 sdl/Xcode-iOS/SDL/SDL.xcodeproj:
 	git submodule update --init --depth 1 -- sdl

@@ -15,11 +15,11 @@ pub fn main() {
         .build()
         .unwrap();
 
-    let mut renderer = window.renderer().build().unwrap();
+    let mut canvas = window.into_canvas().build().unwrap();
 
-    renderer.set_draw_color(Color::RGB(0, 0, 0));
-    renderer.clear();
-    renderer.present();
+    canvas.set_draw_color(Color::RGB(0, 0, 0));
+    canvas.clear();
+    canvas.present();
     let mut event_pump = sdl_context.event_pump().unwrap();
 
     'running: loop {
@@ -31,7 +31,7 @@ pub fn main() {
                         show_simple_message_box(MESSAGEBOX_ERROR,
                                                 "Goodbye!",
                                                 "After months of want and hunger, we suddenly found ourselves able to have meals fit for the gods, and with appetites the gods might have envied.",
-                                                renderer.window());
+                                                canvas.window());
                     match res {
                         Ok(_) => {}
                         Err(ShowMessageError::SdlError(string)) => {

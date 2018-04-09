@@ -5,4 +5,4 @@ authors = ["Michael Hoy <mjh@mjhoy.com>", "Andrew Kelly <a.m.kelly@mind-gloaming
 build = "build.rs"
 
 [dependencies.sdl2]
-version = "0.25"
+version = "0.31"
